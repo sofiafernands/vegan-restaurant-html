@@ -1,0 +1,38 @@
+.bg-white-color {
+    background-color: var(--white-color);
+}
+.bg-gold-color {
+    background-color: var(--gold-color);
+}
+.bg-beige-color {
+    background-color: var(--beige-color);
+}
+.bg-dark-color {
+    background-color: var(--dark-color);
+}
+a {
+    color: var(--gold-color);
+}
+font-white-color {
+    color: var(--white-color);
+}
+font-gold-color {
+    color: var(--gold-color);
+}
+font-dark-color {
+    color: var(--beige-dark);
+}
+button {
+    color: var(--white-color);
+    background-color: var(--gold-color);
+    border-radius: 3px;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+}
+i {
+    color: var(--white-color);
+}
+.icon-medium {
+    font-size: 40px;
+}

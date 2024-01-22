@@ -1,0 +1,9 @@
+@impor url ('reset.css');
+@import url ('global.css');
+
+body  {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    font-family: "VR_Standard", sans-serif;
+    font-size: var(--font-size-global);
+}

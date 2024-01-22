@@ -1,0 +1,285 @@
+#social {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+
+#social .left ul,
+#social .right ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+}
+
+#social .left ul li,
+#social .right ul li {
+    margin: 2px;
+}
+/* 2do div */
+
+#mainMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mainMenu div ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+#mainMenu div ul li {
+    margin: 0 2px;
+}
+
+/*  type_of_food*/
+#type-of-food {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 50px;
+    height: 240px;
+    padding-left: 6%;
+    padding-right: 6%;
+    color: white;
+    gap: 15px;
+}
+
+#type-of-food p {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+/* apartado de carne vegana */
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.enjoy-an-exceptional {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 40px;
+    width: 50%;
+}
+
+.horizontal-divs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.your-best-food {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+    margin: 40px;
+    width: 70%;
+    background-color: rgb(26, 24, 24);
+}
+
+#your-best-food {
+    margin-left: 40px;
+}
+
+/* price */
+
+#list-name ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 6%;
+    
+}
+
+#list-name li {
+    flex: 1 0 calc(50% - 20px);
+    /* Esto hará que los elementos li tomen al menos el 50% del ancho total menos 20px para el margen, y se ajusten en una fila hasta que no haya suficiente espacio, en cuyo caso se moverán a la siguiente fila. */
+    margin: 10px;
+    /* Esto agrega un margen de 10px alrededor de cada li. */
+    box-sizing: border-box;
+    /* Esto asegura que el padding y el borde del elemento se incluyan en su ancho total, evitando que se desborde. */
+    padding: 10px;
+    /* Esto reduce el padding dentro de cada li a 10px. */
+}
+
+.food-place {
+    background-color: black;
+}
+
+/* reservacion */
+#reservation {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+#image-chef img {
+    width: 100%;
+    height: auto;
+}
+
+#reservation div {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* profesionales */
+#professionals {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 20, 20);
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+}
+
+#professionals-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#professionals-list div {
+    flex: 1 0 calc(33.33% - 20px);
+    /* Esto hará que los elementos div tomen al menos el 33.33% del ancho total menos 20px para el margen, y se ajusten en una fila hasta que no haya suficiente espacio, en cuyo caso se moverán a la siguiente fila. */
+    margin: 10px;
+    /* Esto agrega un margen de 10px alrededor de cada div. */
+    box-sizing: border-box;
+    /* Esto asegura que el padding y el borde del elemento se incluyan en su ancho total, evitando que se desborde. */
+}
+
+#professionals-list img {
+    width: 100%;
+    height: auto;
+}
+
+/* reviews */
+
+#stars {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+#stars div {
+    flex: 1;
+    margin: 10px;
+    box-sizing: border-box;
+
+}
+
+/* localizacion */
+
+#location {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6%;
+    padding-right: 6%
+}
+
+#location div {
+    flex: 1;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    flex: 1 0 calc(33.33% - 20px);
+    /* Esto hará que los elementos li tomen al menos el 33.33% del ancho total menos 20px para el margen, y se ajusten en una fila hasta que no haya suficiente espacio, en cuyo caso se moverán a la siguiente fila. */
+    margin: 10px;
+    /* Esto agrega un margen de 10px alrededor de cada li. */
+    box-sizing: border-box;
+    /* Esto asegura que el padding y el borde del elemento se incluyan en su ancho total, evitando que se desborde. */
+}
+
+/* blog */
+#blog {
+    display: flex;
+    gap: 5px;
+    padding-left: 6%;
+    padding-right: 6%;
+
+}
+
+.card {
+    flex: 0 0 calc(33.333% - 5px);
+    background-color: black;
+    margin: 5px;
+    text-align: center;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer div {
+    flex: 1;
+    margin-right: 20px;
+}
+
+footer h4 {
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer input,
+footer button {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+footer button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

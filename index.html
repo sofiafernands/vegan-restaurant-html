@@ -7,36 +7,47 @@
     <title>tu Restaurante Vegano en Miami</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <base haref="http://127.0.0.1:5500">
-    <meta name="keywords" content="restaurante vegano, carne vegana, especialidades saludables, Miami, menú vegano, comida vegetariana">
-    <meta name="description" content="Restaurante vegano en Miami que ofrece platos de carne vegana y especialidades saludables. Descubre nuestro menú y disfruta de una experiencia culinaria única.">
+    <meta name="keywords"
+        content="restaurante vegano, carne vegana, especialidades saludables, Miami, menú vegano, comida vegetariana">
+    <meta name="description"
+        content="Restaurante vegano en Miami que ofrece platos de carne vegana y especialidades saludables. Descubre nuestro menú y disfruta de una experiencia culinaria única.">
     <link rel="stylesheet" href="css/first.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/grid.css">
+
 </head>
 
 <body>
     <!-- Nav 1 redes sociales / contacto -->
     <nav id="social">
-        <div>
+        <div class="left">
             <ul>
-                <li><a href="tel:698865673"><i class="fas fa-phone"></i>698865673</a></li>
-                <li><a href="mailto:fernandesofia1802@gmail.com"><i class="fas fa-envelope"></i>fernandesofia1802@hotmail.com</a></li>
+                <li>
+                    <a href="tel:698865673">
+                        <i class="fas fa-phone"></i> 698865673
+                    </a>
+                </li>
+                
             </ul>
         </div>
-        <div>
+        <div class="right">
             <ul>
-                <li><a href="#"><i class="fab fa-facebook" style="color: green;"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram" style="color: green;"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter" style="color: green;"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin" style="color: rgb(128, 0, 90);"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
                 <li><a href="#otraSeccion"><i class="fas fa-search"></i></a></li>
-
             </ul>
         </div>
     </nav>
-<!-- Nav 2 main menu -->
+    <!-- Nav 2 main menu -->
 
     <nav id="mainMenu">
-        <div>
-            <a href="#"><img src="img/logo.png" id="logo">Millenium</a>
+        <div style="display: flex; align-items: center;">
+            <img src="img/logo.png" id="logo">
+            <a href="#"> Millenium</a>
         </div>
         <div>
             <ul>
@@ -50,79 +61,78 @@
                 <li>
                     <a href="#">Blog</a>
                 </li>
-                <li>
-                    <a href="#">Contactos</a>
-                </li>
+                
+                <button>Reserva Tu Mesa</button>
             </ul>
-            <button>Reserva Tu Mesa</button>
+
         </div>
     </nav>
 
-    <div>
-        <img src="https://i.pinimg.com/originals/b1/4c/69/b14c6952773fcf65d16d1d7e4d01d33b.jpg"
-            alt="fotografia de sala del restaurante" style="width:100%; height:auto;">
+    <div style="position: relative;">
+        <img src="img/cena-copas.jpg" alt="imagen de personas comiendo en un restaurante"
+            style="width:100%; height:auto">
+        <h1 style="position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); color: rgb(17, 17, 17);">
+            Tu Mejor Comida Vegana</h1>
+        <h1 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: rgb(10, 153, 3);">¡
+            VISITANOS !</h1>
+
     </div>
 
-    <style>
-        #type-of-food {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            margin: 40px;
-        }
-    </style>
+    <!-- type_of_food -->
 
     <section id="type-of-food">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem; background-color: black;">
             <img src="img/comida-vegana.jpg" class="card-img-top" alt="imagen de un plato de comida sana"
-                style="width:300px;">
+                style="width:287px;">
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Booking Table</a>
+                <br>
+                <strong>
+                    <p>Booking Table</p>
+                </strong>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem; background-color: black;">
             <img src="img/vegetales-salteados.png" class="card-img-top" alt="imagen de un plato de comida sana"
-                style="width:300px;">
+                style="width:287px;">
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Booking Table</a>
+                <br>
+                <strong>
+                    <p>Booking Table</p>
+                </strong>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem; background-color: black;">
             <img src="img/comida-vegana.jpg" class="card-img-top" alt="imagen de un plato de comida sana"
-                style="width:300px;">
+                style="width:287px;">
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Booking Table</a>
+                <br>
+                <strong>
+                    <p>Booking Table</p>
+                </strong>
             </div>
         </div>
     </section>
     <!-- apartado de carne vegana  -->
 
-    <style>
-        .enjoy-an-exceptional {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            margin: 40px;
-        }
-    </style>
+    <section class="content-wrapper">
+        <div class="vegan-meat">
+            <img src="img/carne-vegana.jpg" alt="imagen de un plato de carne vegana" style="width:100%; height:auto;">
+        </div>
 
-    <div class="vegan-meat">
-        <img src="img/carne-vegana.jpg" alt="imagen de un plato de carne vegana" style="width:40%; height:auto;">
-    </div>
-
-    <div>
-        <h4>Restaurante Vegano en Miami: Disfruta de Nuestras Deliciosas Especialidades </h4>
-        <p>Descubre un lugar único en Miami, donde la carne vegana cobra vida en platos deliciosos y saludables.</p>
         <div class="enjoy-an-exceptional">
-            <div>
-                <i class="fas fa-utensils"></i>
-                <h6>Especialidades Veganas</h6>
-                <p>Descubre nuestras especialidades veganas cuidadosamente preparadas.</p>
-            </div>
-            <div>
-                <i class="fas fa-utensils"></i>
-                <h6>Platos Saludables</h6>
-                <p>Disfruta de platos saludables que satisfacen tus papilas gustativas</p>
+            <h4>Restaurante Vegano en Miami: Disfruta de Nuestras Deliciosas Especialidades </h4>
+            <p>Descubre un lugar único en Miami, donde la carne vegana cobra vida en platos deliciosos y saludables.</p>
+            <div class="horizontal-divs">
+                <div>
+                    <i class="fas fa-utensils icon-medium"></i>
+                    <h6>Especialidades Veganas</h6>
+                    <p>Descubre nuestras especialidades veganas cuidadosamente preparadas.</p>
+                </div>
+                <div>
+                    <i class="fas fa-utensils icon-medium"></i>
+                    <h6>Platos Saludables</h6>
+                    <p>Disfruta de platos saludables que satisfacen tus papilas gustativas</p>
+                </div>
             </div>
             <ul>
                 <li>Experiencia culinaria única en Miami.</li>
@@ -131,7 +141,6 @@
             </ul>
             <button>Ver Nuestro Menú</button>
         </div>
-    </div>
     </section>
     <!--  Choose Your Best Food From Categories....  -->
     <style>
@@ -149,38 +158,41 @@
         }
     </style>
 
-<section style="margin:10px; background-image: url('dos-vinos.jpg'); background-repeat: no-repeat; background-position: right; color: white; background-color: rgb(67, 62, 62); ">
-    <h4>Descubre las Mejores Categorías de Comida Vegana en Miami</h4>
-    <div class="your-best-food">
-        <div>
-            <i class="fas fa-utensil-spoon"></i>
-            <h6>Productos Frescos</h6>
-            <p>Explora nuestra selección de productos frescos y deliciosos para una experiencia culinaria única.</p>
-            <a href="#">Leer Más</a>
-        </div>
+    <section
+        style="background-image: url('img/dos-vinos.jpg'); background-repeat: no-repeat; background-position: right; color: white; background-color: rgb(0, 0, 0);">
+        <br>
+        <h3 id="your-best-food">Descubre las Mejores Categorías de Comida Vegana en Miami</h3>
+        <div class="your-best-food">
+            <div>
+                <i class="fas fa-utensil-spoon icon-medium"></i>
+                <h6>Productos Frescos</h6>
+                <p>Explora nuestra selección de productos frescos y deliciosos para una experiencia culinaria única.</p>
+                <a href="#">Leer Más</a>
+            </div>
 
-        <div>
-            <i class="fas fa-utensils"></i>
-            <h6>Platos Saludables</h6>
-            <p>Descubre opciones saludables que satisfacen tus papilas gustativas y cuidan de tu bienestar.</p>
-            <a href="#">Leer Más</a>
-        </div>
+            <div>
+                <i class="fas fa-utensils icon-medium"></i>
+                <h6>Platos Saludables</h6>
+                <p>Descubre opciones saludables que satisfacen tus papilas gustativas y cuidan de tu bienestar.</p>
+                <a href="#">Leer Más</a>
+            </div>
 
-        <div>
-            <i class="fas fa-hamburger"></i>
-            <h6>Delicias Veganas</h6>
-            <p>Sumérgete en nuestras delicias veganas que te deleitarán con sabores excepcionales y nutritivos.</p>
-            <a href="#">Leer Más</a>
-        </div>
+            <div>
+                <i class="fas fa-hamburger icon-medium"></i>
+                <h6>Delicias Veganas</h6>
+                <p>Sumérgete en nuestras delicias veganas que te deleitarán con sabores excepcionales y nutritivos.</p>
+                <a href="#">Leer Más</a>
+            </div>
 
-        <div>
-            <i class="fas fa-concierge-bell"></i>
-            <h6>Servicio Excepcional</h6>
-            <p>Experimenta nuestro servicio excepcional y atención al cliente para una visita inolvidable.</p>
-            <a href="#">Leer Más</a>
+            <div>
+                <i class="fas fa-concierge-bell icon-medium"></i>
+                <h6>Servicio Excepcional</h6>
+                <p>Experimenta nuestro servicio excepcional y atención al cliente para una visita inolvidable.</p>
+                <br>
+                <a href="#">Leer Más</a>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- seccion food lace (menu) -->
     <style>
@@ -200,101 +212,123 @@
     </style>
 
 
-<section style="margin:10px; color: white; background-color: rgb(16, 16, 16); ">
-    <h4>Descubre Nuestro Menú Vegano en Miami</h4>
-    <div class="food-place">
-        <div>
-            <i class="fas fa-utensil-spoon"></i>
-            <h6>Plato Vegano Especial<i class="fas fa-dollar-sign"> 15</i></h6>
-            <p>Deliciosa combinación de sabores veganos a un precio accesible. ¡Explora nuestra especialidad!</p>
-            <a href="#">Leer Más</a>
+    <section style="margin:10px; color: white; background-color: rgb(23, 22, 22); ">
+        <h4 style="text-align: center; font-size: 25px; padding: 1%;">Descubre Nuestro Menú Vegano en Miami</h4>
+        <div class="food-place">
+            <div>
+                <i class="fas fa-utensil-spoon"></i>
+                <h6>Plato Vegano Especial</h6>
+                <p>Deliciosa combinación de sabores veganos a un precio accesible. ¡Explora nuestra especialidad!</p>
+                <a href="#">Leer Más</a>
+            </div>
+
+            <div>
+                <i class="fas fa-utensils"></i>
+                <h6>Platos Frescos</h6>
+                <p>Explora nuestra selección de platillos frescos y deliciosos.</p>
+                <a href="#">Leer Más</a>
+            </div>
+
+            <div>
+                <i class="fas fa-hamburger icon-medium"></i>
+                <h6>Hamburguesa Vegana</h6>
+                <p>Deliciosa hamburguesa vegana preparada con ingredientes frescos y sabrosos. ¡Una opción saludable y
+                    deliciosa a un precio asequible!</p>
+                <a href="#">Leer Más</a>
+            </div>
+
+            <div>
+                <i class="fas fa-hamburger icon-medium"></i>
+                <h6>Platos Frescos</h6>
+                <p>Explora nuestra selección de platillos frescos y deliciosos.</p>
+                <a href="#">Leer Más</a>
+            </div>
+
+            <div>
+                <i class="fas fa-hamburger icon-medium"></i>
+                <h6>Platos Frescos</h6>
+                <p>Explora nuestra selección de platillos frescos y deliciosos.</p>
+                <a href="#">Leer Más</a>
+            </div>
         </div>
 
-        <div>
-            <i class="fas fa-utensils"></i>
-            <h6>Platos Frescos</h6>
-            <p>Explora nuestra selección de platillos frescos y deliciosos.</p>
-            <a href="#">Leer Más</a>
-        </div>
+        <div id="list-name">
+            <ul>
+                <li>
+                    <img src="img/berenjenas.jpg" alt="imagen de un plato único vegano"
+                        style="width:50px; height:auto;">
+                    <h6>Creativa Creación
+                        <i class="fas fa-dollar-sign">45</i>
+                    </h6>
+                    <p>Sumérgete en esta creación única con sabores innovadores y frescura incomparable.</p>
+                    <hr>
+                </li>
+                <li>
+                    <img src="img/tomates-quesos.jpg" alt="imagen de un plato único vegano"
+                        style="width:50px; height:auto;">
+                    <h6>Sinfonía de Sabores
+                        <i class="fas fa-dollar-sign"> 50</i>
+                    </h6>
+                    <p>Experimenta una sinfonía de sabores en este plato que combina texturas y ingredientes exquisitos.
+                    </p>
+                    <hr>
+                </li>
+                <li>
+                    <img src="img/calabacines.jpg" alt="imagen de un plato único vegano"
+                        style="width:50px; height:auto;">
+                    <h6>Delirio de Delicias
+                        <i class="fas fa-dollar-sign"> 55</i>
+                    </h6>
+                    <p>Embárcate en un delirio de delicias con este plato lleno de sorpresas y explosión de sabores.</p>
+                    <hr>
+                </li>
+                <li>
+                    <img src="img/comida-vegana.jpg" alt="imagen de un plato único vegano"
+                        style="width:50px; height:auto;">
+                    <h6>Aventura Culinary
+                        <i class="fas fa-dollar-sign"> 60</i>
+                    </h6>
+                    <p>Embárcate en una aventura culinaria con este plato que te llevará a nuevos horizontes de sabor.
+                    </p>
+                    <hr>
+                </li>
+                <li>
+                    <img src="img/berenjenas.jpg" alt="imagen de un plato único vegano"
+                        style="width:50px; height:auto;">
+                    <h6>Sinfonía de Colores
+                        <i class="fas fa-dollar-sign"> 65</i>
+                    </h6>
+                    <p>Disfruta de una sinfonía de colores y sabores en este plato vibrante y nutritivo.</p>
+                    <hr>
+                </li>
+                <li>
+                    <img src="img/carne-vegana.jpg" alt="imagen de un plato único vegano"
+                        style="width:50px; height:auto;">
+                    <h6>Exquisita Elegancia
+                        <i class="fas fa-dollar-sign"> 23</i>
+                    </h6>
+                    <p>Experimenta la exquisita elegancia de este plato que combina ingredientes premium y presentación
+                        única.</p>
+                    <hr>
+                </li>
+            </ul>
 
-        <div>
-            <i class="fas fa-hamburger"></i>
-            <h6>Hamburguesa Vegana<i class="fas fa-dollar-sign"> 12</i></h6>
-            <p>Deliciosa hamburguesa vegana preparada con ingredientes frescos y sabrosos. ¡Una opción saludable y deliciosa a un precio asequible!</p>
-            <a href="#">Leer Más</a>
+            <button>Ver Nuestro Menú Completo</button>
+            <br><br>
         </div>
-
-        <div>
-            <i class="fas fa-hamburger"></i>
-            <h6>Platos Frescos</h6>
-            <p>Explora nuestra selección de platillos frescos y deliciosos.</p>
-            <a href="#">Leer Más</a>
-        </div>
-
-        <div>
-            <i class="fas fa-hamburger"></i>
-            <h6>Platos Frescos</h6>
-            <p>Explora nuestra selección de platillos frescos y deliciosos.</p>
-            <a href="#">Leer Más</a>
-        </div>
-    </div>
-
-    <div id="list-name">
-        <ul>
-            <li>
-                <img src="img/berenjenas.jpg" alt="imagen de un plato único vegano"
-                    style="width:50px; height:auto;">
-                <h6>Creativa Creación <hr> <i class="fas fa-dollar-sign">45</i></h6>
-                <p>Sumérgete en esta creación única con sabores innovadores y frescura incomparable.</p>
-            </li>
-            <li>
-                <img src="img/tomates-quesos.jpg" alt="imagen de un plato único vegano"
-                    style="width:50px; height:auto;">
-                <h6>Sinfonía de Sabores <hr> <i class="fas fa-dollar-sign"> 50</i></h6>
-                <p>Experimenta una sinfonía de sabores en este plato que combina texturas y ingredientes exquisitos.</p>
-            </li>
-            <li>
-                <img src="img/calabacines.jpg" alt="imagen de un plato único vegano"
-                    style="width:50px; height:auto;">
-                <h6>Delirio de Delicias <hr> <i class="fas fa-dollar-sign"> 55</i></h6>
-                <p>Embárcate en un delirio de delicias con este plato lleno de sorpresas y explosión de sabores.</p>
-            </li>
-            <li>
-                <img src="img/comida-vegana.jpg" alt="imagen de un plato único vegano"
-                    style="width:50px; height:auto;">
-                <h6>Aventura Culinary <hr> <i class="fas fa-dollar-sign"> 60</i></h6>
-                <p>Embárcate en una aventura culinaria con este plato que te llevará a nuevos horizontes de sabor.</p>
-            </li>
-            <li>
-                <img src="img/berenjenas.jpg" alt="imagen de un plato único vegano"
-                    style="width:50px; height:auto;">
-                <h6>Sinfonía de Colores <hr> <i class="fas fa-dollar-sign"> 65</i></h6>
-                <p>Disfruta de una sinfonía de colores y sabores en este plato vibrante y nutritivo.</p>
-            </li>
-            <li>
-                <img src="img/carne-vegana.jpg" alt="imagen de un plato único vegano"
-                    style="width:50px; height:auto;">
-                <h6>Exquisita Elegancia  <hr> <i class="fas fa-dollar-sign"></i> 23</h6>
-                <p>Experimenta la exquisita elegancia de este plato que combina ingredientes premium y presentación única.</p>
-            </li>
-        </ul>
-        <button>Ver Nuestro Menú Completo</button>
-    </div>
     </section>
 
     <!-- seccion de reservacion "booking table for family member" -->
 
     <section id="booking">
         <div>
-            <h4>Booking Table For Family Member</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-            <button>Booking Table</button>
+            <h4>Realiza tu Reservacion Rapida</h4>
+            <p>Realiza tu reserva, nos pondremos en contacto contigo</p>
         </div>
-
         <div id="reservation">
 
             <div id="image-chef">
-                <img src="img/imagen-chef.jpg" alt="imagen de un chef" style="width:50%; height:auto;">
+                <img src="img/resrvacion.jpg" alt="imagen de un chef" style="width:100%; height:auto;">
             </div>
 
             <div> <!-- formulario de reserva -->
@@ -302,9 +336,12 @@
                 <form>
                     <input type="text" placeholder="Nombre">
                     <input type="text" placeholder="Numero de telefono">
+                    <br><br>
                     <input type="text" placeholder="numero de personas">
                     <input type="text" placeholder="Date" aria-placeholder="dd/mm/aaaa">
+                    <br><br>
                     <input type="text" placeholder="Time" aria-placeholder="hh:mm">
+                    <br><br>
                     <button>Confirmar Reserva</button>
                 </form>
             </div>
@@ -312,10 +349,10 @@
     </section>
 
     <!-- seccion de profesionales -->
+    <div>
+        <h3 style="text-align: center;">Meet Our Professionals</h3>
+    </div>
     <section id="professionals">
-        <div>
-            <h4>Meet Our Professionals</h4>
-        </div>
 
         <div id="professionals-list">
             <div>
@@ -333,22 +370,18 @@
                 <h6>Professionals Name</h6>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             </div>
-            <div>
-                <img src="img/imagen-chef.jpg" alt="imagen de un chef" style="width:50%; height:auto;">
-                <h6>Professionals Name</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-            </div>
+
         </div>
     </section>
 
     <!-- seccion de testimonios/reviews -->
 
     <section id="reviews">
-        <h3>
-            What Our Happy Customer Say About Us
-            v <!-- e debe colocar un background-image alineada al lado izquiero que coja toda la seccion-->
+        <h3 style="background-color: black; margin: 0; text-align: center; padding: 1%;">
+           Conoce nuestras opiniones de nuestros clientes
         </h3>
-        <div id="stars"> <!-- div donde implementamos las estrellas y comentarios de usuarios -->
+        <div id="stars"> <!-- estrellas de calificacion -->
+            
             <div>
                 <h5>Maria Perez</h5>
                 <i class="fas fa-star"></i>
@@ -372,7 +405,7 @@
     <!-- seccion discore the real taste - mapa USA -->
     <div id="location">
         <div>
-            <h4>Discover The Real Taste</h4>
+            <h3>Discover The Real Taste</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
             <br>
             <h5>Where Buy Our Restaurant</h5>
@@ -390,42 +423,44 @@
             <button>Read More</button>
         </div>
         <div>
-            <img src="img/mapa-usa.jpg" alt="imagen de un chef" style="width:50%; height:auto;">
+            <img src="img/mapa-usa.jpg" alt="imagen de un chef" style="width:100%; height:auto; border-radius: 4%;">
         </div>
     </div>
 
     <!-- seccion de blog y ultimas noticias / dividir en tres secciones horicontalmente el id "blog" -->
     <div id="blog">
+        <div class="card" style="width: 18rem;">
+            <img src="img/dos-vinos.jpg" class="card-img-top" alt="imagen de vino en una copa de vino" style="width: 100%;">
+            <div class="card-body">
+                <h5 class="card-title">Cocteles</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <hr>
+                <a href="#" class="btn btn-primary">Read More </a>
+            </div>
+        </div>
 
         <div class="card" style="width: 18rem;">
-            <img src="img/dos-vinos.jpg" class="card-img-top" alt="imagen de vino en una copa">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <hr>
-              <a href="#" class="btn btn-primary">Read More </a>
+                <h5 class="card-title">Vinos de la casa</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <hr>
+                <a href="#" class="btn btn-primary">Read More</a>
+                <img src="img/dos-vinos.jpg" class="card-img-top" alt="imagen de vegetales salteados" style="width: 100%; padding-bottom: 0;">
             </div>
-          </div>
+        </div>
 
-          <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem;">
+            <img src="img/dos-vinos.jpg" class="card-img-top" alt="imagen de vino en una copa de vino" style="width: 100%;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <hr>
-              <a href="#" class="btn btn-primary">Read More</a>
-              <img src="img/vegetales-salteados.png" class="card-img-top" alt="imagen de vegetales salteados">
+                <h5 class="card-title">Quesos Madurados</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <hr>
+                <a href="#" class="btn btn-primary">Read More </a>
             </div>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-            <img src="img/carne-vegana.jpg" class="card-img-top" alt="imagen de carne vegana al grill">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <hr>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
-          </div>
+        </div>
     </div>
 
     <!-- footer - pie de pagina final -->
@@ -449,7 +484,8 @@
             <ul>
                 <li><i class="fas fa-map-marker-alt"></i>Address: 123 Street, City, Country</li>
                 <li><a href="tel:698865673"><i class="fas fa-phone"></i>698865673</a></li>
-                <li><i class="fas fa-envelope"></i> Email:fernandesofia1802@hptmail.com</li>            </ul>   
+                <li><i class="fas fa-envelope"></i> Email:fernandesofia1802@hptmail.com</li>
+            </ul>
         </div>
         <div>
             <h4>Suscribete a nuestro Newsletter</h4>

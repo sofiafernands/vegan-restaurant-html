@@ -1,0 +1,9 @@
+:root {
+    --font-size-global: 16px;
+    --white-color: rgb(255, 255, 255);
+    --light-color: rgb(224, 222, 212);
+    --gold-color: rgb(201, 171, 129);
+    --beige-color: rgb(247, 248, 241);
+    --dark-color: rgb(18, 20, 23);
+    --extra-dark-color: rgb(12, 14, 16);
+}
